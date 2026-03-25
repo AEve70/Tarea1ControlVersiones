@@ -414,3 +414,8 @@ footer p {
     --cream:   #3d423c;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  nav { border-bottom-color: var(--sage-mid); }
+  .newsletter { background: #1e211e; }
+}
