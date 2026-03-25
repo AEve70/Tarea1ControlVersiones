@@ -1,191 +1,129 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Null Pointer — A dev blog</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav>
-      <a href="#" class="nav-logo">null<span>pointer</span></a>
-      <div class="nav-links">
-        <a href="#">Essays</a>
-        <a href="#">Notes</a>
-        <a href="#">About</a>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Null Pointer — A dev blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
 
-    <header class="hero">
-      <div class="hero-left">
-        <div class="hero-label">
-          A blog about software &amp; the people who write it
+  <nav>
+    <a href="#" class="nav-logo">null<span>pointer</span></a>
+    <div class="nav-links">
+      <a href="#">Essays</a>
+      <a href="#">Notes</a>
+      <a href="#">About</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-left">
+      <div class="hero-label">A blog about software &amp; the people who write it</div>
+      <h1 class="hero-title">Null<br/><em>Pointer</em></h1>
+    </div>
+    <div class="hero-right">
+      <p class="hero-sub">Writing on systems, tools, and the quiet craft of building things that last.</p>
+      <div class="hero-tags">
+        <span class="tag">Essays</span>
+        <span class="tag--outline">Notes</span>
+        <span class="tag--cream">Systems</span>
+        <span class="tag--outline">Tools</span>
+        <span class="tag--outline">Git</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="featured">
+    <div class="featured-inner">
+      <div class="featured-number">01</div>
+      <div class="featured-content">
+        <div class="featured-meta">
+          <span class="tag">Essay</span>
+          <span class="dot">·</span>
+          <span class="date">March 2026</span>
+          <span class="dot">·</span>
+          <span class="date">8 min read</span>
         </div>
-        <h1 class="hero-title">Null<br /><em>Pointer</em></h1>
+        <h2 class="featured-title">The Unreasonable Effectiveness of Just Shipping It</h2>
+        <p class="featured-excerpt">We talk endlessly about architecture, about the right abstractions, about technical debt. Meanwhile, the engineers who actually change things tend to share one trait: they ship. Not sloppily — deliberately. Here's what I've learned watching both kinds of teams.</p>
+        <a href="#" class="read-link">Read essay &nbsp;→</a>
       </div>
-      <div class="hero-right">
-        <p class="hero-sub">
-          Writing on systems, tools, and the quiet craft of building things that
-          last.
-        </p>
-        <div class="hero-tags">
-          <span class="tag">Essays</span>
-          <span class="tag--outline">Notes</span>
-          <span class="tag--cream">Systems</span>
-          <span class="tag--outline">Tools</span>
-          <span class="tag--outline">Git</span>
-        </div>
+    </div>
+  </section>
+
+  <section class="posts">
+    <div class="posts-header">
+      <h3>Recent writing</h3>
+      <a href="#" class="see-all">All posts →</a>
+    </div>
+    <div class="posts-grid">
+
+      <article class="post-card">
+        <div class="post-meta"><span class="tag tag--outline">Note</span><span class="date">Feb 2026</span></div>
+        <h4>Git is a Graph, and Graphs Are Everywhere</h4>
+        <p>Once you internalize the DAG model, a lot of Git's "magic" becomes obvious. Branches are pointers. Commits are nodes. That's it.</p>
+        <a href="#" class="read-link">Read &nbsp;→</a>
+      </article>
+
+      <article class="post-card post-card--alt">
+        <div class="post-meta"><span class="tag">Essay</span><span class="date">Feb 2026</span></div>
+        <h4>The Case for Boring Technology</h4>
+        <p>Every new framework promises to solve your problems. Boring, proven tools promise something more valuable: you already know how they fail.</p>
+        <a href="#" class="read-link">Read &nbsp;→</a>
+      </article>
+
+      <article class="post-card">
+        <div class="post-meta"><span class="tag tag--outline">Note</span><span class="date">Jan 2026</span></div>
+        <h4>Reading Source Code as Literature</h4>
+        <p>The best engineers I know read code for pleasure. Not to study — to appreciate. There's craft in a well-named variable.</p>
+        <a href="#" class="read-link">Read &nbsp;→</a>
+      </article>
+
+      <article class="post-card post-card--alt">
+        <div class="post-meta"><span class="tag">Essay</span><span class="date">Jan 2026</span></div>
+        <h4>On Rewriting vs Refactoring</h4>
+        <p>The urge to throw it all away and start fresh is almost always wrong. Almost. The hardest skill is knowing which one you're actually facing.</p>
+        <a href="#" class="read-link">Read &nbsp;→</a>
+      </article>
+
+      <article class="post-card">
+        <div class="post-meta"><span class="tag tag--outline">Note</span><span class="date">Dec 2025</span></div>
+        <h4>Terminal Aesthetics and Why They Matter</h4>
+        <p>Your environment shapes how you think. A clean shell config isn't vanity — it signals that you care about the details.</p>
+        <a href="#" class="read-link">Read &nbsp;→</a>
+      </article>
+
+      <article class="post-card post-card--alt">
+        <div class="post-meta"><span class="tag">Essay</span><span class="date">Dec 2025</span></div>
+        <h4>What Pair Programming Actually Teaches You</h4>
+        <p>It's not about two people being faster than one. It's about watching someone else think and realizing your model was built entirely from yourself.</p>
+        <a href="#" class="read-link">Read &nbsp;→</a>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="newsletter-inner">
+      <div>
+        <p class="newsletter-eyebrow">Stay sharp, stay curious</p>
+        <h3>New essays,<br/>when they're ready.</h3>
+        <p class="newsletter-sub">No cadence, no digest. Just a note when something worth reading goes up.</p>
       </div>
-    </header>
+      <form class="newsletter-form" onsubmit="return false">
+        <input type="email" placeholder="your@email.com" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
 
-    <section class="featured">
-      <div class="featured-inner">
-        <div class="featured-number">01</div>
-        <div class="featured-content">
-          <div class="featured-meta">
-            <span class="tag">Essay</span>
-            <span class="dot">·</span>
-            <span class="date">March 2026</span>
-            <span class="dot">·</span>
-            <span class="date">8 min read</span>
-          </div>
-          <h2 class="featured-title">
-            The Unreasonable Effectiveness of Just Shipping It
-          </h2>
-          <p class="featured-excerpt">
-            We talk endlessly about architecture, about the right abstractions,
-            about technical debt. Meanwhile, the engineers who actually change
-            things tend to share one trait: they ship. Not sloppily —
-            deliberately. Here's what I've learned watching both kinds of teams.
-          </p>
-          <a href="#" class="read-link">Read essay &nbsp;→</a>
-        </div>
-      </div>
-    </section>
+  <footer>
+    <span class="nav-logo">null<span>pointer</span></span>
+    <p>Written somewhere with good coffee.</p>
+  </footer>
 
-    <section class="posts">
-      <div class="posts-header">
-        <h3>Recent writing</h3>
-        <a href="#" class="see-all">All posts →</a>
-      </div>
-      <div class="posts-grid">
-        <article class="post-card">
-          <div class="post-meta">
-            <span class="tag tag--outline">Note</span
-            ><span class="date">Feb 2026</span>
-          </div>
-          <h4>Git is a Graph, and Graphs Are Everywhere</h4>
-          <p>
-            Once you internalize the DAG model, a lot of Git's "magic" becomes
-            obvious. Branches are pointers. Commits are nodes. That's it.
-          </p>
-          <a href="#" class="read-link">Read &nbsp;→</a>
-        </article>
-
-        <article class="post-card post-card--alt">
-          <div class="post-meta">
-            <span class="tag">Essay</span><span class="date">Feb 2026</span>
-          </div>
-          <h4>The Case for Boring Technology</h4>
-          <p>
-            Every new framework promises to solve your problems. Boring, proven
-            tools promise something more valuable: you already know how they
-            fail.
-          </p>
-          <a href="#" class="read-link">Read &nbsp;→</a>
-        </article>
-
-        <article class="post-card">
-          <div class="post-meta">
-            <span class="tag tag--outline">Note</span
-            ><span class="date">Jan 2026</span>
-          </div>
-          <h4>Reading Source Code as Literature</h4>
-          <p>
-            The best engineers I know read code for pleasure. Not to study — to
-            appreciate. There's craft in a well-named variable.
-          </p>
-          <a href="#" class="read-link">Read &nbsp;→</a>
-        </article>
-
-        <article class="post-card post-card--alt">
-          <div class="post-meta">
-            <span class="tag">Essay</span><span class="date">Jan 2026</span>
-          </div>
-          <h4>On Rewriting vs Refactoring</h4>
-          <p>
-            The urge to throw it all away and start fresh is almost always
-            wrong. Almost. The hardest skill is knowing which one you're
-            actually facing.
-          </p>
-          <a href="#" class="read-link">Read &nbsp;→</a>
-        </article>
-
-        <article class="post-card">
-          <div class="post-meta">
-            <span class="tag tag--outline">Note</span
-            ><span class="date">Dec 2025</span>
-          </div>
-          <h4>Terminal Aesthetics and Why They Matter</h4>
-          <p>
-            Your environment shapes how you think. A clean shell config isn't
-            vanity — it signals that you care about the details.
-          </p>
-          <a href="#" class="read-link">Read &nbsp;→</a>
-        </article>
-
-        <article class="post-card post-card--alt">
-          <div class="post-meta">
-            <span class="tag">Essay</span><span class="date">Dec 2025</span>
-          </div>
-          <h4>What Pair Programming Actually Teaches You</h4>
-          <p>
-            It's not about two people being faster than one. It's about watching
-            someone else think and realizing your model was built entirely from
-            yourself.
-          </p>
-          <a href="#" class="read-link">Read &nbsp;→</a>
-        </article>
-
-        <article class="post-card">
-          <div class="post-meta">
-            <span class="tag">Essay</span><span class="date">Nov 2025</span>
-          </div>
-          <h4>The Login Page Nobody Thinks About</h4>
-          <p>
-            Authentication is the first thing users see and the last thing
-            engineers care about. That's backwards.
-          </p>
-          <a href="#" class="read-link">Read &nbsp;→</a>
-        </article>
-      </div>
-    </section>
-
-    <section class="newsletter">
-      <div class="newsletter-inner">
-        <div>
-          <p class="newsletter-eyebrow">Stay in the loop</p>
-          <h3>New essays,<br />when they're ready.</h3>
-          <p class="newsletter-sub">
-            No cadence, no digest. Just a note when something worth reading goes
-            up.
-          </p>
-        </div>
-        <form class="newsletter-form" onsubmit="return false;">
-          <input type="email" placeholder="your@email.com" />
-          <button type="submit">Subscribe</button>
-        </form>
-      </div>
-    </section>
-
-    <footer>
-      <span class="nav-logo">null<span>pointer</span></span>
-      <p>Written somewhere with good coffee.</p>
-    </footer>
-  </body>
+</body>
 </html>
