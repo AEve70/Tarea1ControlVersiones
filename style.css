@@ -39,7 +39,7 @@ nav {
   justify-content: space-between;
   padding: 18px var(--pad);
   background: var(--paper);
-  border-bottom: 2px solid var(--sage-mid);
+  border-bottom: 1px solid var(--sage-mid);
 }
 
 .nav-logo {
