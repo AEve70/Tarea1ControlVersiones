@@ -28,7 +28,7 @@ html {
 
 body {
     background: var(--paper);
-    color: var(--forest);
+    color: var(--forest2);
     font-family: var(--sans);
     font-size: 16px;
     line-height: 1.7;
@@ -112,7 +112,7 @@ nav {
     line-height: .9;
     font-weight: 400;
     letter-spacing: -.02em;
-    color: var(--forest);
+    color: var(--forest2);
 }
 
 .hero-title em {
