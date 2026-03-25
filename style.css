@@ -71,7 +71,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   gap: 48px;
   align-items: end;
-  border-bottom: 1px solid var(--sage-mid);
+  border-bottom: 2px solid var(--sage-mid);
 }
 
 .hero-left {}
@@ -142,7 +142,7 @@ nav {
 /* ─── FEATURED ──────────────────────────────────────────── */
 .featured {
   background: var(--cream);
-  border-bottom: 1px solid var(--sage-mid);
+  border-bottom: 2px solid var(--sage-mid);
 }
 
 .featured-inner {
@@ -209,7 +209,7 @@ nav {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  border-bottom: 1px solid var(--sage-mid);
+  border-bottom: 2px solid var(--sage-mid);
   padding-bottom: 2px;
   transition: gap .2s, border-color .2s;
 }
@@ -228,7 +228,7 @@ nav {
   justify-content: space-between;
   margin-bottom: 32px;
   padding-bottom: 14px;
-  border-bottom: 1px solid var(--sage-mid);
+  border-bottom: 2px solid var(--sage-mid);
 }
 
 .posts-header h3 {
